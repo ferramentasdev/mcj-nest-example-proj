@@ -82,6 +82,17 @@ class Product {
   orders?: Array<Order>;
 
   @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  sku!: string | null;
+
+  @ApiProperty({
     required: true,
   })
   @IsDate()
