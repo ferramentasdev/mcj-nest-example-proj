@@ -27,6 +27,7 @@ export const ProductEdit = (props: EditProps): React.ReactElement => {
         >
           <SelectArrayInput optionText={OrderTitle} />
         </ReferenceArrayInput>
+        <TextInput label="SKU" source="sku" />
       </SimpleForm>
     </Edit>
   );

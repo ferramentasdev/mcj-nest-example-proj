@@ -5,4 +5,5 @@ export type ProductCreateInput = {
   itemPrice?: number | null;
   name?: string | null;
   orders?: OrderCreateNestedManyWithoutProductsInput;
+  sku?: string | null;
 };

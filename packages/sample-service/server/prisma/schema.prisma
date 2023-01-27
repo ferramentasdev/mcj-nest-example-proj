@@ -63,5 +63,6 @@ model Product {
   itemPrice   Float?
   name        String?
   orders      Order[]
+  sku         String?  @unique
   updatedAt   DateTime @updatedAt
 }

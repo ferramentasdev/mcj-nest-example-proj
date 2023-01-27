@@ -56,6 +56,7 @@ export class ProductControllerBase {
         id: true,
         itemPrice: true,
         name: true,
+        sku: true,
         updatedAt: true,
       },
     });
@@ -81,6 +82,7 @@ export class ProductControllerBase {
         id: true,
         itemPrice: true,
         name: true,
+        sku: true,
         updatedAt: true,
       },
     });
@@ -107,6 +109,7 @@ export class ProductControllerBase {
         id: true,
         itemPrice: true,
         name: true,
+        sku: true,
         updatedAt: true,
       },
     });
@@ -142,6 +145,7 @@ export class ProductControllerBase {
           id: true,
           itemPrice: true,
           name: true,
+          sku: true,
           updatedAt: true,
         },
       });
@@ -176,6 +180,7 @@ export class ProductControllerBase {
           id: true,
           itemPrice: true,
           name: true,
+          sku: true,
           updatedAt: true,
         },
       });

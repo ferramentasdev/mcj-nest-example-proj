@@ -24,6 +24,7 @@ const CREATE_INPUT = {
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
+  sku: "exampleSku",
   updatedAt: new Date(),
 };
 const CREATE_RESULT = {
@@ -32,6 +33,7 @@ const CREATE_RESULT = {
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
+  sku: "exampleSku",
   updatedAt: new Date(),
 };
 const FIND_MANY_RESULT = [
@@ -41,6 +43,7 @@ const FIND_MANY_RESULT = [
     id: "exampleId",
     itemPrice: 42.42,
     name: "exampleName",
+    sku: "exampleSku",
     updatedAt: new Date(),
   },
 ];
@@ -50,6 +53,7 @@ const FIND_ONE_RESULT = {
   id: "exampleId",
   itemPrice: 42.42,
   name: "exampleName",
+  sku: "exampleSku",
   updatedAt: new Date(),
 };
 
