@@ -1,5 +1,17 @@
 [
   {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "manager",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "manager",
     "resource": "User",
     "action": "read:any",
@@ -9,6 +21,6 @@
     "role": "admin",
     "resource": "User",
     "action": "read:any",
-    "attributes": "*"
+    "attributes": "*,!username,!roles"
   }
 ]
