@@ -1,11 +1,5 @@
 [
   {
-    "role": "user",
-    "resource": "User",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
     "role": "manager",
     "resource": "User",
     "action": "read:own",
