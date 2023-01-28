@@ -9,7 +9,6 @@ import { PasswordService } from "./password.service";
 // eslint-disable-next-line
 import { TokenService } from "./token.service";
 import { VALID_ID } from "../tests/auth/constants";
-import { User } from "../user/base/User";
 
 const VALID_CREDENTIALS: Credentials = {
   username: "Valid User",
@@ -19,7 +18,7 @@ const INVALID_CREDENTIALS: Credentials = {
   username: "Invalid User",
   password: "Invalid User Password",
 };
-const USER: User = {
+const USER: any = {
   ...VALID_CREDENTIALS,
   createdAt: new Date(),
   firstName: "ofek",
