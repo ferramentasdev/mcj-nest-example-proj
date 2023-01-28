@@ -1,26 +1,32 @@
 [
   {
-    "role": "user",
+    "role": "admin",
     "resource": "User",
-    "action": "read:own",
+    "action": "update:any",
     "attributes": "*"
   },
   {
-    "role": "manager",
+    "role": "admin",
     "resource": "User",
-    "action": "read:own",
+    "action": "delete:any",
     "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*,!password,!roles"
   },
   {
     "role": "manager",
     "resource": "User",
     "action": "read:any",
-    "attributes": "*,!roles"
+    "attributes": "*,!password,!roles"
   },
   {
     "role": "admin",
     "resource": "User",
     "action": "read:any",
-    "attributes": "*,!username,!roles"
+    "attributes": "*,!password"
   }
 ]
